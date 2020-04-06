@@ -1,24 +1,11 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Multitenancy Proof of Concept
 
-Things you may want to cover:
+This project aims to understand the nuiances of Apartment gem to enable multi schema based multitenancy. 
 
-* Ruby version
+Ruby Version: 2.6.3
 
-* System dependencies
+Special Gem dependencies: Apartment
 
-* Configuration
+Database Creation: Tenant creation has a callback to create the schema for the newly created tenant.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
